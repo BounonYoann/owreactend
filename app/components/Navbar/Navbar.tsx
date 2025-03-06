@@ -60,8 +60,8 @@ const Navbar = () => {
                 </Link>
               </div>
 
-              {/* LINKS */}
-              <div className="lg:flex items-center border-right text-white">
+              {/* LINKS - Only visible on large screens */}
+              <div className="hidden lg:flex items-center border-right text-white">
                 <div className="flex justify-end space-x-4">
                   {navigation.map((item) => (
                     <Link
@@ -80,6 +80,8 @@ const Navbar = () => {
                   ))}
                 </div>
               </div>
+
+              {/* Phone - Only visible on large screens */}
               <div className="gap-6 hidden lg:flex">
                 <div className="flex items-center gap-2">
                   <Image
