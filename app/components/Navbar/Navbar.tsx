@@ -39,7 +39,7 @@ const Navbar = () => {
                   className="text-2xl font-semibold text-white ml-4"
                 >
                   <Image
-                    src="/images/Logo/Logo.png"
+                    src="/images/Logo/logo.png"
                     alt="logo"
                     width={36}
                     height={36}
@@ -52,7 +52,7 @@ const Navbar = () => {
                   className="text-2xl font-semibold text-white ml-4"
                 >
                   <Image
-                    src="/images/Logo/Logo.png"
+                    src="/images/Logo/logo.png"
                     alt="logo"
                     width={56}
                     height={56}
