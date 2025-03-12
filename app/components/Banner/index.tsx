@@ -31,7 +31,7 @@ const Banner = () => {
                 Découvrez l&apos;authenticité de la cuisine italienne avec nos
                 arancini, carpaccio et desserts maison. Un voyage gourmand au
                 bord de l&apos;eau vous attend ! Dégustez nos plats faits
-                maison, <br /> préparées avec passion et authenticité. Bon
+                maison, <br /> préparés avec passion et authenticité. Bon
                 appétit !
               </p>
             </Fade>

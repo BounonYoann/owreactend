@@ -19,7 +19,7 @@ const Newsletter = () => {
               >
                 <h3 className="text-lg font-normal text-white mb-3 ls-51">
                   {" "}
-                  Nos Horraires{" "}
+                  Nos Horaires{" "}
                 </h3>
               </Fade>
               <Fade

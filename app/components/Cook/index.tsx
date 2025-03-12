@@ -58,7 +58,7 @@ const Cook = () => {
             >
               <p className="text-white md:text-lg font-normal mb-10 text-start mt-2">
                 Savourez des recettes traditionnelles, préparées avec des
-                ingrédients frais et authentiques. itué au bord de l&apos;eau,
+                ingrédients frais et authentiques. Situé au bord de l&apos;eau,
                 O&apos;W vous invite à une escapade gourmande aux saveurs
                 italiennes. Dégustez nos arancini croustillants, notre carpaccio
                 savoureux, et nos pâtes fraîches faites maison. Finissez sur une
@@ -71,7 +71,7 @@ const Cook = () => {
               </p>
               <div className="flex align-middle justify-center md:justify-start">
                 <button className="text-xl font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-10 mr-6">
-                  <Link href="#newsletter">Nos Horraires</Link>
+                  <Link href="#newsletter">Nos Horaires</Link>
                 </button>
               </div>
             </Fade>
