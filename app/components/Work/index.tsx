@@ -59,7 +59,7 @@ const Work = () => {
             triggerOnce={true}
           >
             <p className="text-3xl lg:text-5xl font-semibold text-lightgrey">
-              L&apos;talie à Votre Table
+              L&apos;Italie à Votre Table
             </p>
           </Fade>
         </div>
