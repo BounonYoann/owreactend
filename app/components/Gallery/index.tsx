@@ -84,7 +84,6 @@ const Gallery = () => {
             <Image
               src="/images/Gallery/cardone.jpg"
               alt="carte-1"
-              id="cardone"
               width={1600}
               height={900}
               className="inner-img w-full transform-none hover:transform-none" // Retire le zoom au survol
@@ -107,6 +106,7 @@ const Gallery = () => {
             <Image
               src="/images/Gallery/hours.jpg"
               alt="horaires"
+              id="cardone"
               width={800}
               height={400}
               className="inner-img w-70% transform-none hover:transform-none mx-auto rounded" // Retire le zoom au survol
