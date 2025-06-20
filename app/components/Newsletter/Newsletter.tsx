@@ -19,7 +19,7 @@ const Newsletter = () => {
               >
                 <h3 className="text-lg font-normal text-white mb-3 ls-51">
                   {" "}
-                  Nos Horaires{" "}
+                  Votre opinion compte énormément pour nous !{" "}
                 </h3>
               </Fade>
               <Fade
@@ -29,8 +29,11 @@ const Newsletter = () => {
                 damping={1e-1}
                 triggerOnce={true}
               >
-                <h3 className="text-3xl md:text-5xl font-semibold text-white mb-8">
-                  Du Lundi au Dimanche <br /> 11h30 / 14h00.
+                <h3 className="text-1xl md:text-2xl font-semibold text-white mb-8">
+                  Si vous avez apprécié notre service, nous vous serions
+                  reconnaissants de bien vouloir laisser un avis sur Google.
+                  Cela nous aide à améliorer constamment la qualité de nos
+                  services et à mieux vous satisfaire.
                 </h3>
               </Fade>
 

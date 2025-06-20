@@ -91,7 +91,7 @@ const Navbar = () => {
                     height={19}
                   />
                   <p className="text-lg font-medium text-white">
-                    09 86 61 30 87
+                    06 69 76 76 29
                   </p>
                 </div>
               </div>

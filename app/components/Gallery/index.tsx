@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Gallery = () => {
   return (
-    <div id="gallery-section" className=" bg-black">
+    <div id="gallery-section" className="bg-black">
       <div className="mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 mt-20 md:pt-24">
         <div className="text-center">
           <Fade
@@ -74,6 +74,43 @@ const Gallery = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Nouvelle section avec les deux images de la carte et l'image des horaires */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-6">
+          {/* Image 1 - Carte */}
+          <div className="overflow-hidden rounded-3xl w-full mx-auto">
+            <Image
+              src="/images/Gallery/cardone.jpg"
+              alt="carte-1"
+              id="cardone"
+              width={1600}
+              height={900}
+              className="inner-img w-full transform-none hover:transform-none" // Retire le zoom au survol
+            />
+          </div>
+
+          {/* Image 2 - Carte */}
+          <div className="overflow-hidden rounded-3xl w-full mx-auto">
+            <Image
+              src="/images/Gallery/cardtwo.jpg"
+              alt="carte-2"
+              width={1600}
+              height={900}
+              className="inner-img w-full transform-none hover:transform-none" // Retire le zoom au survol
+            />
+          </div>
+
+          {/* Image 3 - Horaires */}
+          <div className="overflow-hidden rounded-3xl col-span-1 sm:col-span-2">
+            <Image
+              src="/images/Gallery/hours.jpg"
+              alt="horaires"
+              width={800}
+              height={400}
+              className="inner-img w-70% transform-none hover:transform-none mx-auto rounded" // Retire le zoom au survol
+            />
           </div>
         </div>
       </div>

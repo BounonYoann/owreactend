@@ -71,7 +71,7 @@ const Cook = () => {
               </p>
               <div className="flex align-middle justify-center md:justify-start">
                 <button className="text-xl font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-10 mr-6">
-                  <Link href="#newsletter">Nos Horaires</Link>
+                  <Link href="#cardone">Nos Horaires</Link>
                 </button>
               </div>
             </Fade>

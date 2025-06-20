@@ -123,7 +123,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="border-t border-pink mt-12 pt-8 text-center">
           <p className="text-white text-sm">
-            @2024 - Développé avec <span className="text-red-500">❤</span> par{" "}
+            @2025 - Développé avec <span className="text-red-500">❤</span> par{" "}
             <Link
               href="https://visiondigital.fr"
               target="_blank"
