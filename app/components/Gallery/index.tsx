@@ -34,7 +34,7 @@ const Gallery = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 my-16 sm:space-x-6 space-y-6 md:space-y-0 px-6">
           <div className="col-span-6 flex justify-center overflow-hidden rounded-3xl">
             <Image
-              src="/images/Gallery/foodone.jpg"
+              src="/images/Gallery/gros.png"
               alt="pizza-one"
               width={1000}
               height={805}
@@ -46,7 +46,7 @@ const Gallery = () => {
             <div className="grid grid-rows-1 grid-flow-row gap-4">
               <div className="row-span-1 overflow-hidden rounded-3xl">
                 <Image
-                  src="/images/Gallery/foodtwo.jpg"
+                  src="/images/Gallery/pate.png"
                   alt="pizza-two"
                   width={700}
                   height={405}
@@ -56,7 +56,7 @@ const Gallery = () => {
               <div className="grid grid-cols-2 gap-2">
                 <div className="overflow-hidden rounded-3xl">
                   <Image
-                    src="/images/Gallery/foodthree.jpg"
+                    src="/images/Gallery/deux.png"
                     alt="pizza-three"
                     width={500}
                     height={405}
@@ -65,7 +65,7 @@ const Gallery = () => {
                 </div>
                 <div className="overflow-hidden rounded-3xl">
                   <Image
-                    src="/images/Gallery/foodfour.jpg"
+                    src="/images/Gallery/un.png"
                     alt="pizza-four"
                     width={500}
                     height={405}
@@ -104,7 +104,7 @@ const Gallery = () => {
           {/* Image 3 - Horaires */}
           <div className="overflow-hidden rounded-3xl col-span-1 sm:col-span-2">
             <Image
-              src="/images/Gallery/hours.jpg"
+              src="/images/Gallery/hours.png"
               alt="horaires"
               id="cardone"
               width={800}
